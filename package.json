@@ -1,0 +1,29 @@
+{
+    "name": "xpress_crashx",
+    "version": "1.0.0",
+    "description": "express app of enotech",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server",
+        "test": "run dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "xpress_crashx"
+    },
+    "keywords": [
+        "enotech",
+        "test",
+        "xpress"
+    ],
+    "author": "Innocent Misheck",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.2.3",
+        "express": "^4.18.2",
+        "express-handlebars": "^5.3.5",
+        "moment": "^2.29.4",
+        "nodemon": "^2.0.22",
+        "uuid": "^9.0.0"
+    }
+}
